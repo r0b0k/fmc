@@ -1,0 +1,43 @@
+.container{
+	text-align: center;
+	margin-top: 50px;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+.images{
+	height: 300px;
+}
+.images img{
+	padding: 15px;
+	max-height: 160px;
+	max-width: 160px;
+}
+.rank{
+	overflow: hidden;
+}
+.rank ul{
+	width: 100%;
+}
+.rank ul li{
+	float: left;
+	width: 20%;
+	list-style: none;
+}
+.rank ul li img{
+	cursor: pointer;
+	padding: 10px;
+	max-height: 100px;
+	opacity: 0.1;
+}
+.rank ul li img:hover{
+	opacity: 1;
+}
+li:last-of-type img{
+	margin-left: -10px;
+}
+li:last-of-type strong{
+	margin-left: -12px;
+}
+input{
+	margin: 14px !important;	
+}
